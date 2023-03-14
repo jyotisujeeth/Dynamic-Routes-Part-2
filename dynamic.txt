@@ -1,0 +1,6 @@
+# Dynamic-Routes-Part-2
+here we learn t model and use it for making a cart system
+
+When we are dealing with complex applications which needs a big list of routes, it becomes difficult to handle everything in single index.js file. To avoid this, we can use Express.Router and create a separate file named routes.js in the same directory where index.js exists. Now add the following code in your routes.js file. All the express router routes will be added in routes.js file.
+
+Dynamic Routing allows us to pass parameters and values in routes on the basis of which the server processes our request and sends back the response. This is not fixed or static. The value of parameter can be changed.
